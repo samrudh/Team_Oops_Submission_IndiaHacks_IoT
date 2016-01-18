@@ -1,6 +1,7 @@
 # Team_Oops_Submission_IndiaHacks_IoT  
 
 Device simulator to debug and test  IoT software platforms and cloud apps  
+(This Repository is part of the submission to Indiahacks'16- IoT theme organized by HackerEarth)  
 
 ======================  
 
@@ -20,7 +21,7 @@ Setup: Raspberry Pi
     
 	
 
-Courtesy:'\n'  
+Courtesy:  
 
-AllThingsTalk developer cloud: Smartliving '\n'  
+AllThingsTalk developer cloud: Smartliving   
  
