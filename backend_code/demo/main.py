@@ -15,8 +15,8 @@ import os
 
 #set up the SmartLiving IoT platform
 IOT.DeviceId = 0			 #"8PQHkYNlXdXLfT9Nn9eD5DQ"
-IOT.ClientId = "yogesh"
-IOT.ClientKey = "lm54hyfwcry"
+IOT.ClientId = "indiahack_oops"
+IOT.ClientKey = "1tbxrq5itbs"
 
 results=[]
 
@@ -98,7 +98,7 @@ IOT.connect()
 #### sample arduino DeviceId
 #### sample Edison DeviceId
 #### sample Raspberry DeviceId
-IOT.DeviceId = "ucbSbmSsfTS3MpDOdP780pW"
+IOT.DeviceId = "2gk7D3Rh07AvjxZgDsWkYq3"
 IOT.connect()
 #IOT.subscribe()
 IOT.addAsset(0, "Pressure sensor", "Pressure sensor in inches", False, "number", "Undefined")
@@ -109,7 +109,7 @@ IOT.sendValueHTTP("True",1)
 def sendSamplepack():
     ## send values to Sample sensor
     ## sample Arduino
-    IOT.DeviceId = "ucbSbmSsfTS3MpDOdP780pW"
+    IOT.DeviceId = "2gk7D3Rh07AvjxZgDsWkYq3"   #"ucbSbmSsfTS3MpDOdP780pW"
     IOT.connect()
     val = random.uniform(29,31)
     IOT.sendValueHTTP(val,0)
@@ -277,7 +277,7 @@ def thread_func_flicker():
         os.system('sudo ifconfig wlan0 down')
         sleep(5)
         os.system('sudo ifconfig wlan0 up')
-        sleep(600)
+        sleep(1000) #1000 mins
 	
 
 def thread_func_randomRare():

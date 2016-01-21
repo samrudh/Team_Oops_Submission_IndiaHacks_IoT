@@ -8,7 +8,7 @@ Device simulator to debug and test  IoT software platforms and cloud apps
 
 Links:  
 
-1: Presentation link: http://prezi.com/rtms9jwspyb6/?utm_campaign=share&utm_medium=copy'  
+1: Presentation link: http://prezi.com/rtms9jwspyb6/?utm_campaign=share&utm_medium=copy  
 
 2: Demo video link:https://drive.google.com/folderview?id=0B6JYe17R3eQDSmx4RktoMmNMeDQ&usp=sharing    
 
