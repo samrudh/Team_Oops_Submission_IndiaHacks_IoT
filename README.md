@@ -22,6 +22,5 @@ Setup: Raspberry Pi
 	
 
 Courtesy:  
-
 AllThingsTalk developer cloud: Smartliving   
  
